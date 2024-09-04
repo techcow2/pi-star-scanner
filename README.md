@@ -37,7 +37,7 @@ If no Pi-Star device is found, the script will give you the option to display al
 
 ## Requirements
 
-Before running the script, ensure you have:
+Before running the script, make sure you have:
 - A **Windows PC** (Windows 10 or newer recommended).
 - A Pi-Star device connected to the **same Wi-Fi network** as your PC.
 - Internet access for downloading the script and scanning your network.
