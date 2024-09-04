@@ -1,6 +1,7 @@
 # Pi-Star Network Scanner
 
-Welcome to the **Pi-Star Network Scanner**! This is a simple, user-friendly script that helps you find the local IP address of a Pi-Star device on your Wi-Fi network.
+Welcome to the **Pi-Star Network Scanner**! This is a simple, user-friendly script that helps you find the local IP address of a Pi-Star device on your Wi-Fi network. Whether you're a technical expert or just starting, this tool is designed to make your life easier!
+
 ### Created by: W8RJB ©2024 TechRay Apps LLC
 
 ---
@@ -12,8 +13,9 @@ Welcome to the **Pi-Star Network Scanner**! This is a simple, user-friendly scri
 3. [Requirements](#requirements)
 4. [How to Use](#how-to-use)
 5. [Disclaimer](#disclaimer)
-6. [Troubleshooting](#troubleshooting)
-7. [Contributing](#contributing)
+6. [VirusTotal Report](#virustotal-report)
+7. [Troubleshooting](#troubleshooting)
+8. [Contributing](#contributing)
 
 ---
 
@@ -72,6 +74,16 @@ Before running the script, ensure you have:
 While we've done our best to make the Pi-Star Network Scanner safe and easy to use, TechRay Apps LLC and the creators are not responsible for any damage, loss, or issues that may occur while using this script. By using the Pi-Star Network Scanner, you agree to these terms.
 
 **Affiliation Disclaimer:** This project is **not affiliated** with or endorsed by **Pi-Star** or its developers. Pi-Star is a separate project and trademark of its respective owners.
+
+---
+
+## VirusTotal Report
+
+To ensure transparency and trust, you can view the security report for this script from VirusTotal:
+
+**[VirusTotal Scan Report](https://www.virustotal.com/gui/file/3d30bacb9f7a16ec7dbc42f5ce3e5d205d2c586fe3cd7c176ed6c1be56d10a81/detection)**
+
+This report shows that the script is free of malware or other harmful components.
 
 ---
 
