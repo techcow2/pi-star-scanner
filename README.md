@@ -70,7 +70,7 @@ Before running the script, ensure you have:
 ## Disclaimer
 
 **Use this script at your own risk.**
-While we've done our best to make the Pi-Star Network Scanner safe and easy to use, TechRay Apps LLC and the creators are not responsible for any damage, loss, or issues that may occur while using this script. By using the Pi-Star Network Scanner, you agree to these terms.
+While I've done my best to make the Pi-Star Network Scanner safe and easy to use, TechRay Apps LLC is not responsible for any damage, loss, or issues that may occur while using this script. By using the Pi-Star Network Scanner, you agree to these terms.
 
 **Affiliation Disclaimer:** This project is **not affiliated** with or endorsed by **Pi-Star** or its developers. Pi-Star is a separate project and trademark of its respective owners.
 
