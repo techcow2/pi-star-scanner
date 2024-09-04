@@ -116,4 +116,4 @@ We welcome contributions from everyone! If you have suggestions or would like to
 
 ---
 
-Thank you for using **Pi-Star Network Scanner**! We hope this tool makes finding your Pi-Star device easier.
+Thank you for using **Pi-Star Network Scanner**! I hope this tool makes finding your Pi-Star device easier.
