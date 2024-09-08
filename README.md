@@ -33,7 +33,7 @@ Welcome to the **Pi-Star Network Scanner**! This is a simple, user-friendly scri
 
 ## What is Pi-Star Network Scanner?
 
-Pi-Star Network Scanner is a Windows batch script that scans your local network (Wi-Fi or Ethernet) to find the **Pi-Star** device. This script is perfect for anyone who has a Pi-Star setup (used in digital voice hotspots for amateur radio) and wants to quickly locate the device's IP address on the network without needing any technical skills.
+Pi-Star Network Scanner is a Windows batch script that scans your local network (Wi-Fi or Ethernet) to find the **Pi-Star** device. This script is perfect for anyone who has a Pi-Star setup (used in digital voice hotspots for amateur radio) and wants to quickly locate the device's IP address on the network.
 
 ---
 
