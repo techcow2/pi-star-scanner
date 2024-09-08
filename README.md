@@ -3,7 +3,8 @@
 Welcome to the **Pi-Star Network Scanner**! This is a simple, user-friendly script that helps you find the local IP address of a Pi-Star device on your Wi-Fi or Ethernet network.
 
 ### Created by: W8RJB ©2024 TechRay Apps LLC
-![Screenshot 2024-09-07 212647](https://github.com/user-attachments/assets/b288354c-e198-4b37-8984-1bcda7825e14)
+![Screenshot 2024-09-07 212839](https://github.com/user-attachments/assets/4dc89d81-2315-49a6-8ef9-28cf49a71557)
+
 ---
 
 
