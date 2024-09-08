@@ -135,8 +135,8 @@ This project is **not affiliated** with or endorsed by **Pi-Star** or its develo
 ### VirusTotal Report
 To ensure transparency and trust, you can view the security report for this script from VirusTotal:
 
-[**VirusTotal Scan Report 1**](https://www.virustotal.com/gui/file/162ecbc8b1c89135cbfd95b4c2c6e0492fea964ea6f563f6e4d1e385512e11d8?nocache=1)  
-[**VirusTotal Scan Report 2**](https://www.virustotal.com/gui/file/8ff496ffbd47d16ae4b7f2211441cba6075afdc93c4ee67c965395eb24c34e0b?nocache=1)
+[**VirusTotal Scan Report 1**](https://www.virustotal.com/gui/file/162ecbc8b1c89135cbfd95b4c2c6e0492fea964ea6f563f6e4d1e385512e11d8/summary)  
+[**VirusTotal Scan Report 2**](https://www.virustotal.com/gui/file/8ff496ffbd47d16ae4b7f2211441cba6075afdc93c4ee67c965395eb24c34e0b/summary)
 
 This report shows that the script is free of malware or other harmful components.
 
