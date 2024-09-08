@@ -33,7 +33,11 @@ Welcome to the **Pi-Star Network Scanner**! This is a simple, user-friendly scri
 
 ## What is Pi-Star Network Scanner?
 
-Pi-Star Network Scanner is a Windows batch script that scans your local network (Wi-Fi or Ethernet) to find the **Pi-Star** device. This script is perfect for anyone who has a Pi-Star setup (used in digital voice hotspots for amateur radio) and wants to quickly locate the device's IP address on the network.
+Pi-Star Network Scanner is a script that scans your local network (Wi-Fi or Ethernet) to find the **Pi-Star** device. This script is perfect for anyone who has a Pi-Star setup (used in digital voice hotspots for amateur radio) and wants to quickly locate the device's IP address on the network.
+
+The script is available in two versions:
+- **Windows Batch Script (`pistarscanner.bat`)** for Windows users.
+- **Shell Script (`pistarscanner.sh`)** for Unix-based systems like Linux and macOS.
 
 ---
 
@@ -58,8 +62,8 @@ If no Pi-Star device is found, the script will give you the option to display al
 ## Requirements
 
 Before running the script, make sure you have:
-- A **Windows PC** (Windows 10 or newer recommended).
-- A Pi-Star device connected to the **same network (Ethernet or Wi-Fi)** as your PC.
+- A **Windows PC** (Windows 10 or newer recommended) or a **Unix-based system** (Linux, macOS).
+- A Pi-Star device connected to the **same network (Ethernet or Wi-Fi)** as your machine.
 - Internet access for downloading the script and scanning your network.
 
 ---
@@ -67,29 +71,48 @@ Before running the script, make sure you have:
 ## How to Use
 
 ### Step 1: Download the Script
-1. Download the `PiStarScanner.bat` file from this repository by clicking the **Code** button and selecting **Download ZIP**.
-2. Extract the ZIP file on your computer.
+1. Download the appropriate version of the script for your system:
+   - For Windows: Download the `pistarscanner.bat` file from this repository.
+   - For Unix-based systems (Linux/macOS): Download the `pistarscanner.sh` file.
+2. Extract the ZIP file on your computer if necessary.
 
 ### Step 2: Run the Script
-1. Double-click the `PiStarScanner.bat` file to run it.
+
+#### For Windows (Batch Script):
+1. Double-click the `pistarscanner.bat` file to run it.
 2. You will see a welcome screen with a disclaimer about using the script.
 3. After reading the information, you'll be asked if you want to proceed:
    - Type `Y` to proceed with the scan.
    - Type `N` to exit the script.
 
+#### For Linux/macOS (Shell Script):
+1. Open a terminal and navigate to the directory where `pistarscanner.sh` is located.
+2. Make the script executable by running:
+   ```bash
+   chmod +x pistarscanner.sh
+Run the script by typing:
+bash
+Copy code
+./pistarscanner.sh
 ### Step 3: Select Your Connection Type
-1. You'll be prompted to choose whether your Pi-Star is connected to your network via **Ethernet** or **Wi-Fi**.
-   - Press `1` for Ethernet.
-   - Press `2` for Wi-Fi.
+You'll be prompted to choose whether your Pi-Star is connected to your network via **Ethernet** or **Wi-Fi**.
 
-2. If you select Ethernet, a list of active Ethernet connections (including their IP addresses and descriptions) will be displayed. 
-   - You can either select the Ethernet network by pressing the corresponding number or press `I` to scan **all active Ethernet connections** if you're unsure.
+- Press `1` for Ethernet.
+- Press `2` for Wi-Fi.
 
-3. If you select Wi-Fi, the script will begin scanning your Wi-Fi network for Pi-Star.
+If you select **Ethernet**, a list of active Ethernet connections (including their IP addresses and descriptions) will be displayed.
+
+- You can either select the Ethernet network by pressing the corresponding number or press `I` to scan **all active Ethernet connections** if you're unsure.
+
+If you select **Wi-Fi**, the script will begin scanning your Wi-Fi network for Pi-Star.
+
+---
 
 ### Step 4: View Results
 - **If Pi-Star is found**, the script will display the device's **IP address** and automatically open the Pi-Star Dashboard in your web browser.
 - **If Pi-Star is not found**, you will be given the option to display all connected devices on the network for manual exploration.
+
+---
 
 ### Step 5: Troubleshooting (if Pi-Star is not found)
 - If the script doesn’t find Pi-Star, it will ask if you want to display all connected devices on your network.
@@ -97,52 +120,54 @@ Before running the script, make sure you have:
 
 ---
 
-## Disclaimer
+### Disclaimer
+**Use this script at your own risk.**  
+While I've done my best to make the Pi-Star Network Scanner safe and easy to use, **TechRay Apps LLC** is not responsible for any damage, loss, or issues that may occur while using this script. By using the Pi-Star Network Scanner, you agree to these terms.
 
-**Use this script at your own risk.**
-While I've done my best to make the Pi-Star Network Scanner safe and easy to use, TechRay Apps LLC is not responsible for any damage, loss, or issues that may occur while using this script. By using the Pi-Star Network Scanner, you agree to these terms.
-
-**Affiliation Disclaimer:** This project is **not affiliated** with or endorsed by **Pi-Star** or its developers. Pi-Star is a separate project and trademark of its respective owners.
+### Affiliation Disclaimer
+This project is **not affiliated** with or endorsed by **Pi-Star** or its developers. Pi-Star is a separate project and trademark of its respective owners.
 
 ---
 
-## VirusTotal Report
-
+### VirusTotal Report
 To ensure transparency and trust, you can view the security report for this script from VirusTotal:
 
-**[VirusTotal Scan Report](https://www.virustotal.com/gui/file/162ecbc8b1c89135cbfd95b4c2c6e0492fea964ea6f563f6e4d1e385512e11d8?nocache=1)**
+[**VirusTotal Scan Report 1**](https://www.virustotal.com/gui/file/162ecbc8b1c89135cbfd95b4c2c6e0492fea964ea6f563f6e4d1e385512e11d8?nocache=1)  
+[**VirusTotal Scan Report 2**](https://www.virustotal.com/gui/file/8ff496ffbd47d16ae4b7f2211441cba6075afdc93c4ee67c965395eb24c34e0b?nocache=1)
 
 This report shows that the script is free of malware or other harmful components.
 
 ---
 
-## Troubleshooting
+### Troubleshooting
 
-### Common Issues:
+#### Common Issues
 
-1. **Pi-Star not found:**
+1. **Pi-Star not found**:
    - Make sure your Pi-Star device is powered on and connected to the same Wi-Fi or Ethernet network as your computer.
    - Ensure that your Wi-Fi or Ethernet connection is active and stable.
 
-2. **Script shows an error:**
+2. **Script shows an error**:
    - If you encounter any unexpected errors, try restarting the script or your computer.
-   - Make sure your computer is running Windows 10 or newer.
+   - Make sure your computer is running **Windows 10 or newer** or a **Unix-based system (Linux/macOS)**.
 
-3. **Pi-Star Dashboard doesn’t open:**
-   - Ensure your default web browser is set correctly in Windows.
+3. **Pi-Star Dashboard doesn’t open**:
+   - Ensure your default web browser is set correctly in your operating system.
    - Try manually entering the IP address into the browser’s address bar.
 
-4. **Scanning is slow:**
-   - The script has been optimized for faster scanning with reduced timeouts and parallel checks. However, the speed may depend on the number of devices on your network or your PC's performance.
+4. **Scanning is slow**:
+   - The script has been optimized for faster scanning with reduced timeouts and parallel checks. However, the speed may depend on the number of devices on your network or your system's performance.
+
+---
 
 ### Need more help?
 If you need assistance or run into issues, feel free to create an **issue** in the GitHub repository or reach out to the community for help.
 
 ---
 
-## Contributing
-
+### Contributing
 We welcome contributions from everyone! If you have suggestions or would like to improve this script, feel free to:
+
 - Fork this repository.
 - Make your changes.
 - Submit a pull request.
@@ -150,10 +175,3 @@ We welcome contributions from everyone! If you have suggestions or would like to
 ---
 
 Thank you for using **Pi-Star Network Scanner**! I hope this tool makes finding your Pi-Star device easier.
-
----
-
-### Summary of Recent Changes:
-- Added **Ethernet support** for users who connect Pi-Star via Ethernet instead of Wi-Fi.
-- Implemented **faster network scanning** with reduced timeouts and intelligent pre-checks using `ping`.
-- Users can now select **Ethernet or Wi-Fi** easily and, if unsure, scan all active networks.
