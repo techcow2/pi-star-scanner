@@ -24,6 +24,7 @@ Welcome to the **Pi-Star Network Scanner**! This is a simple, user-friendly scri
 
 ### **New Features in the Latest Update (2024):**
 - **Ethernet Support**: The script now supports scanning **Ethernet networks** in addition to Wi-Fi. You can choose whether your Pi-Star is connected via Ethernet or Wi-Fi during setup.
+- **Shell Script Support**: The script is now available for **Unix-based systems** (Linux/macOS) as a shell script (`pistarscanner.sh`) in addition to the Windows batch script.
 - **Faster Scanning**: The scanning process has been optimized with reduced timeout settings and improved IP filtering for quicker results.
 - **Ping Pre-Check**: A faster, more efficient network scan using `ping` to check if devices are reachable before checking for Pi-Star. This helps reduce the number of unnecessary connection attempts.
 - **Connection Type Selection**: Users can now easily select whether their Pi-Star is connected via **Ethernet** or **Wi-Fi**. If you're unsure, an option to scan all networks is available.
